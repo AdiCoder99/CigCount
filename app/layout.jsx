@@ -1,7 +1,7 @@
 import "../src/styles.css";
 
 export const metadata = {
-  title: "CigCount — See the air differently",
+  title: "PuffIndex — See the air differently",
   description: "Understand your air quality as a cigarette equivalent."
 };
 

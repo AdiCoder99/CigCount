@@ -11,7 +11,7 @@ export async function GET(request) {
     url.searchParams.set("lon", coordinates.longitude);
     url.searchParams.set("format", "jsonv2");
     const response = await fetch(url, {
-      headers: { "User-Agent": "CigCount/1.0 air-quality-awareness-app" },
+      headers: { "User-Agent": "PuffIndex/1.0 air-quality-awareness-app" },
       next: { revalidate: 86400 }
     });
     if (!response.ok) throw new Error("Reverse geocoding request failed");

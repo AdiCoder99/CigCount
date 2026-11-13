@@ -1,6 +1,6 @@
-# CigCount
+# PuffIndex
 
-CigCount is an air-quality awareness website that translates local pollution into an easy-to-understand cigarette equivalent. It automatically detects the user's location, displays the location name, retrieves current air-quality data, and lets users search for other places.
+PuffIndex is an air-quality awareness website that translates local pollution into an easy-to-understand cigarette equivalent. It automatically detects the user's location, displays the location name, retrieves current air-quality data, and lets users search for other places.
 
 ## Features
 
@@ -55,7 +55,7 @@ npm start
 
 ## Location Services
 
-CigCount asks the browser for location permission when the page loads. If permission is denied or unavailable, the app uses Delhi as a fallback and allows users to search for another place.
+PuffIndex asks the browser for location permission when the page loads. If permission is denied or unavailable, the app uses Delhi as a fallback and allows users to search for another place.
 
 For browser geolocation to work, the app should be opened on:
 
@@ -72,7 +72,7 @@ For browser geolocation to work, the app should be opened on:
 
 ## Cigarette Equivalent
 
-CigCount uses the following awareness estimate:
+PuffIndex uses the following awareness estimate:
 
 ```text
 estimated cigarettes = round(AQI / 22)
@@ -101,4 +101,4 @@ src/
 - [Open-Meteo](https://open-meteo.com/) for air quality and geocoding data
 - [OpenStreetMap Nominatim](https://nominatim.org/) for reverse geocoding
 
-Data availability depends on the external services. CigCount is intended for awareness and educational use only.
+Data availability depends on the external services. PuffIndex is intended for awareness and educational use only.

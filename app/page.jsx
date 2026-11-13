@@ -100,7 +100,7 @@ export default function Page() {
   return <main className="app-shell">
     <div className="orb orb-one" /><div className="orb orb-two" />
     <nav className="nav container">
-      <a className="brand" href="/"><span className="brand-mark"><Wind size={19} /></span><span>Cig<span>Count</span></span></a>
+      <a className="brand" href="/"><span className="brand-mark"><Wind size={19} /></span><span>Puff<span>Index</span></span></a>
       <div className="nav-links"><a href="#how">How it works</a><a href="#about">About the data</a></div>
       <button className="location-pill" onClick={useCurrentLocation}><Compass size={15} /> Use my location</button>
     </nav>
@@ -124,6 +124,6 @@ export default function Page() {
       </div>
     </section>
     <section className="bottom-strip container" id="how"><div><span className="strip-number">01</span><b>Find your air</b><p>We use your location or a place you search for.</p></div><div><span className="strip-number">02</span><b>Read the index</b><p>Live PM2.5 data is translated into a simple score.</p></div><div><span className="strip-number">03</span><b>Make it personal</b><p>One cigarette equivalent makes the invisible visible.</p></div></section>
-    <footer className="footer container" id="about"><span>© 2025 CigCount</span><span>Data from Open-Meteo · For awareness, not medical advice.</span></footer>
+    <footer className="footer container" id="about"><span>© 2025 PuffIndex</span><span>Data from Open-Meteo · For awareness, not medical advice.</span></footer>
   </main>;
 }
